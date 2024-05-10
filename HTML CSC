@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive travel website</title>
+    <!-- links to css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- box icon -->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+   <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  
+</head>
+<body>
+  <!-- navbar -->
+  <header>
+    <a href="#" class="logo">travel</a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+      <li><a href="#home" class="home-active">home</a></li>
+      <li><a href="#places">places</a></li>
+      <li><a href="#video">video</a></li>
+      <li><a href="#about">about</a></li>
+    </ul>
+  </header>
+
+<!--home-->
+</header>
+
+
+  <section class="home swiper" id="home">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide container">
+        <img src="boat.jpg" alt="">
+        <div class="home-text">
+          <span>discover now</span>
+          <h1>explore the <br>beautiful beach <br>of maldives</h1>
+          <a href="#" class="btn">explore</a>
+        </div>
+      </div>
+      <div class="swiper-slide container">
+        <img src="boat2.jpg" alt="">
+        <div class="home-text">
+          <span>discover now</span>
+          <h1>explore the <br>beautiful beach <br>of bali</h1>
+          <a href="#" class="btn">explore</a>
+        </div>
+      </div>
+      <div class="swiper-slide container">
+        <img src="boat3.jpg" alt="">
+        <div class="home-text">
+          <span>discover now</span>
+          <h1>explore the <br>beautiful beach <br>of hawaii</h1>
+          <a href="#" class="btn">explore</a>
+        </div>
+      </div>
+    </div> 
+  
+  <!-- places -->
+  <section class="places" id="places">
+      <div class="heading">
+        <h1>find the most <br>attractive places</h1>
+      </div>
+      <div class="place-container">
+          <div class="box">
+              <div class="place-img">
+                   <img src="boat2.jpg" alt="">
+              </div>
+              <div class="place-text">
+                  <h2>hawaii</h2>
+              </div>
+              <i class='bx bx-right-arrow-alt place-icon'></i>
+          </div>
+
+          <div class="box">
+            <div class="place-img">
+                 <img src="boat3.jpg" alt="">
+            </div>
+            <div class="place-text">
+                <h2>maldives</h2>
+            </div>
+            <i class='bx bx-right-arrow-alt place-icon'></i>
+        </div>
+        <div class="box">
+          <div class="place-img">
+               <img src="boat.jpg" alt="">
+          </div>
+          <div class="place-text">
+              <h2>bali</h2>
+          </div>
+          <i class='bx bx-right-arrow-alt place-icon'></i>
+      </div>
+      </div>
+  </section>
+  <!-- video -->
+  <section class="videos" id="videos">
+      <div class="heading">
+        <h1>watch the most <br>attractive places</h1>
+
+      </div>
+      <div class="video container">
+          <video src="video yatch.mp4" muted autoplay></video>
+      </div>
+  </section>
+  <!-- about -->
+  <section class="about" id="about">
+      <div class="about=text">
+        <h1>we are largest trip <br>organizer here</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit. Nullam suscipit, libero non commodo suscipit, odio velit finibus risus, id feugiat lorem lectus sit amet ante. Etiam fermentum mi id urna volutpat vestibulum. Fusce ac orci quis elit fringilla condimentum. Morbi dapibus lacus sed ante malesuada, vel rutrum sem congue</p>
+        <a href="#" class="btn">learn more</a>
+      </div>
+      <div class="about-img">
+          <img src="boat.jpg" alt="">
+      </div>
+  </section>
+  <section class="footer">
+      <div class="footer-box">
+          <h2>travel</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit. Nullam suscipit, libero non commodo suscipit, odio velit finibus risus, id feugiat lorem lectus sit amet ante. Etiam fermentum mi id urna volutpat vestibulum. Fusce ac orci quis elit fringilla condimentum. Morbi dapibus lacus sed ante malesuada, vel rutrum sem congue</p>
+
+          <div class="social">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-tiktok"></i></a>
+          </div>
+      </div>
+      <div class="footer-box">
+        <h3>service</h3>
+        <li><a href="#">product</a></li>
+        <li><a href="#">help & support</a></li>
+        <li><a href="#">pricing</a></li>
+        <li><a href="#">FAQ</a></li>
+     </div>
+      <div class="footer-box">
+         <h3>office</h3>
+         <li><a href="#">pakistan</a></li>
+         <li><a href="#">japan</a></li>
+         <li><a href="#">united state</a></li>
+         <li><a href="#">italy</a></li>
+      </div>
+      <div class="footer-box">
+        <h3>contact us</h3>
+        <li><a href="#">about us</a></li>
+        <li><a href="#">our team</a></li>
+        <li><a href="#">our blog</a></li>
+        <li><a href="#">customers</a></li>
+     </div>
+  </section>
+  <!-- copyright -->
+  <div class="copyright">
+  <p>&#169; carpoolvenom all right reserved.</p>
+  </div>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="main.js"></script>
+</body>
